@@ -7,17 +7,21 @@ jobs:
   update-diagrams:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # This gives write permission to the repository
+      contents: write
     steps:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}  # Explicitly use the GitHub token
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Export draw.io files
         uses: rlespinasse/drawio-export-action@v2
         with:
           format: png
           transparent: true
+      - name: Move and rename exported file
+        run: |
+          mv export/Marketing_Analytics_Pipeline-Page-1.png dataflow.png
+          rm -rf export/
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
