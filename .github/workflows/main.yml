@@ -2,7 +2,7 @@ name: Update Diagrams
 on:
   push:
     paths:
-      - '**.drawio'
+      - '**/*.drawio' # Corrected path to be more specific
 jobs:
   update-diagrams:
     runs-on: ubuntu-latest
@@ -18,21 +18,36 @@ jobs:
         with:
           format: svg
           transparent: false
+          # You might need to specify the source file if you have multiple .drawio files
+          # or if it's not in the root. Example:
+          # files: 'your-diagram-name.drawio' 
       - name: Debug - Show exported files
         run: |
           echo "Contents of current directory:"
           ls -la
-          echo "Contents of export directory (if it exists):"
-          ls -la export/ || echo "No export directory found"
-          find . -name "*.svg" -type f || echo "No SVG files found"
+          echo "Contents of export directory:"
+          ls -la export/
+          find . -name "*.svg" -type f || echo "No SVG files found in current or subdirectories"
       - name: Move and rename exported file
         run: |
-          find . -name "*.svg" -type f -exec mv {} dataflow.svg \;
-          rm -rf export/
+          # Assuming the drawio-export-action placed the SVG in export/your-diagram-name.svg
+          # And you want to rename it to dataflow.svg in the root.
+          # We need to find the *first* SVG file in the export directory
+          # and move it to the root as dataflow.svg.
+          EXPORTED_SVG=$(find export/ -name "*.svg" -print -quit) # Find first SVG in export/
+          if [ -n "$EXPORTED_SVG" ]; then
+            mv "$EXPORTED_SVG" dataflow.svg
+            echo "Moved $EXPORTED_SVG to dataflow.svg"
+          else
+            echo "No SVG file found in export/ directory."
+            exit 1 # Fail the step if no SVG is found
+          fi
+          rm -rf export/ # Clean up the export directory
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
+          # Check if there are actual changes before committing
           git diff --staged --quiet || git commit -m "Update diagrams"
           git push
