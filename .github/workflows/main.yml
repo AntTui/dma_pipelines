@@ -1,0 +1,22 @@
+name: Update Diagrams
+on:
+  push:
+    paths:
+      - '**.drawio'
+jobs:
+  update-diagrams:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Export draw.io files
+        uses: rlespinasse/drawio-export-action@v2
+        with:
+          format: png
+          transparent: true
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Update diagrams" || exit 0
+          git push
