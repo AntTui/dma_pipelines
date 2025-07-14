@@ -16,11 +16,11 @@ jobs:
       - name: Export draw.io files
         uses: rlespinasse/drawio-export-action@v2
         with:
-          format: png
-          transparent: true
+          format: svg
+          transparent: false  # This gives it a white background
       - name: Move and rename exported file
         run: |
-          mv export/Marketing_Analytics_Pipeline-Page-1.png dataflow.png
+          mv export/Marketing_Analytics_Pipeline-Page-1.svg dataflow.svg
           rm -rf export/
       - name: Commit changes
         run: |
