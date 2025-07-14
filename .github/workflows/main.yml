@@ -17,7 +17,14 @@ jobs:
         uses: rlespinasse/drawio-export-action@v2
         with:
           format: svg
-          transparent: false  # This gives it a white background
+          transparent: false
+      - name: Debug - Show exported files
+        run: |
+          echo "Contents of current directory:"
+          ls -la
+          echo "Contents of export directory (if it exists):"
+          ls -la export/ || echo "No export directory found"
+          find . -name "*.svg" -type f || echo "No SVG files found"
       - name: Move and rename exported file
         run: |
           mv export/Marketing_Analytics_Pipeline-Page-1.svg dataflow.svg
