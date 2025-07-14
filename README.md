@@ -1,3 +1,3 @@
 # dma_pipelines
 
-![Data Flow Diagram](dataflow.png)
+![Data Flow Diagram](dataflow.svg)
