@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.2">
   <diagram name="Page-1" id="FAtJ0V6YEHCZEtDZKV_H">
-    <mxGraphModel dx="1444" dy="4492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1363" dy="4442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Bg2uEGpWlqwBbDiqovX2-151" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=light-dark(#FFFFFF,#D335FF);opacity=20;strokeColor=default;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="530" y="2730" width="360" height="420" as="geometry" />
+        </mxCell>
         <mxCell id="zgAYRgSe3FVbi-9sgqyX-145" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=light-dark(#FFFFFF,#D335FF);opacity=20;strokeColor=default;strokeWidth=4;" vertex="1" parent="1">
           <mxGeometry x="190" y="-3190" width="570" height="1600" as="geometry" />
         </mxCell>
@@ -1672,7 +1675,7 @@
         <mxCell id="zgAYRgSe3FVbi-9sgqyX-99" value="UK | 3PA | 3PF Flights Beach | Searchers Selectors Bookings PAX UV" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="-1800" width="490" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Bg2uEGpWlqwBbDiqovX2-136" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Bg2uEGpWlqwBbDiqovX2-128">
+        <mxCell id="Bg2uEGpWlqwBbDiqovX2-136" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bg2uEGpWlqwBbDiqovX2-128" target="Bg2uEGpWlqwBbDiqovX2-150">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="2840" as="sourcePoint" />
             <mxPoint x="240" y="2780" as="targetPoint" />
@@ -1684,19 +1687,20 @@
         <mxCell id="zgAYRgSe3FVbi-9sgqyX-100" value="UK | 3PA | Lakes &amp;amp; Mountains | Searchers Selectors Bookings PAX UV" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="-1770" width="490" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Bg2uEGpWlqwBbDiqovX2-137" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Bg2uEGpWlqwBbDiqovX2-131">
+        <mxCell id="Bg2uEGpWlqwBbDiqovX2-137" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bg2uEGpWlqwBbDiqovX2-131" target="Bg2uEGpWlqwBbDiqovX2-141">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="2879.5" as="sourcePoint" />
             <mxPoint x="240" y="2879.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="220" y="2879.5" />
+              <mxPoint x="210" y="2880" />
+              <mxPoint x="210" y="2865" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="zgAYRgSe3FVbi-9sgqyX-101" value="UK | 3PA | Marella | Searchers Selectors Bookings PAX UV" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="-1740" width="490" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Bg2uEGpWlqwBbDiqovX2-138" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="Bg2uEGpWlqwBbDiqovX2-138" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Bg2uEGpWlqwBbDiqovX2-145">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="130" y="2979.69" as="sourcePoint" />
             <mxPoint x="240" y="2980" as="targetPoint" />
@@ -1708,7 +1712,7 @@
         <mxCell id="zgAYRgSe3FVbi-9sgqyX-102" value="UK | 3PA | All | Searchers Selectors Bookings PAX UV" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="-1710" width="490" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Bg2uEGpWlqwBbDiqovX2-139" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="Bg2uEGpWlqwBbDiqovX2-139" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Bg2uEGpWlqwBbDiqovX2-144">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="130" y="3079.69" as="sourcePoint" />
             <mxPoint x="240" y="3080" as="targetPoint" />
@@ -1733,25 +1737,25 @@
           <mxGeometry x="220" y="-2250" width="490" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Bg2uEGpWlqwBbDiqovX2-141" value="Kayak_comission" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="2850" width="170" height="30" as="geometry" />
+          <mxGeometry x="280" y="2850" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zgAYRgSe3FVbi-9sgqyX-105" value="UK | Online | TUI UK Beach - 3PF | Searchers Selectors Bookings PAX UV" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="-2220" width="490" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Bg2uEGpWlqwBbDiqovX2-143" value="Kayak_direct" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="2880" width="170" height="30" as="geometry" />
+          <mxGeometry x="280" y="2880" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zgAYRgSe3FVbi-9sgqyX-106" value="UK | Online | TUI UK Beach&amp;nbsp; - TUI Flights | Searchers Selectors Bookings PAX UV" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="-2190" width="490" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Bg2uEGpWlqwBbDiqovX2-144" value="CruiseCritic" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="3065" width="170" height="30" as="geometry" />
+          <mxGeometry x="270" y="3065" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zgAYRgSe3FVbi-9sgqyX-107" value="UK | Online | River Cruise | Searchers Selectors Bookings PAX UV" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="-2160" width="490" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Bg2uEGpWlqwBbDiqovX2-145" value="Skyscanner_direct" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="2965" width="170" height="30" as="geometry" />
+          <mxGeometry x="270" y="2965" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zgAYRgSe3FVbi-9sgqyX-108" value="UK | Online | Marella | Searchers Selectors Bookings PAX UV" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="-2130" width="490" height="30" as="geometry" />
@@ -1775,7 +1779,7 @@
           <mxGeometry x="220" y="-2070" width="490" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Bg2uEGpWlqwBbDiqovX2-150" value="TUI_UK_Affiliates_Impact" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="2770" width="170" height="30" as="geometry" />
+          <mxGeometry x="285" y="2770" width="165" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zgAYRgSe3FVbi-9sgqyX-111" value="UK | Online | Flight Only | Searchers Selectors Bookings PAX UV" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="-2040" width="490" height="30" as="geometry" />
@@ -1876,6 +1880,15 @@
         </mxCell>
         <mxCell id="zgAYRgSe3FVbi-9sgqyX-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aiPOxApG92XrM1YB90lP-69" target="zgAYRgSe3FVbi-9sgqyX-145">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bg2uEGpWlqwBbDiqovX2-152" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Bg2uEGpWlqwBbDiqovX2-143">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="2880" as="sourcePoint" />
+            <mxPoint x="285" y="2895" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="2895" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
