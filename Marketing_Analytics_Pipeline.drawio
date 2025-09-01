@@ -8,7 +8,7 @@
           <mxGeometry x="1180" y="770" width="250" height="490" as="geometry" />
         </mxCell>
         <mxCell id="upaL1L_dqLUM5AP28dGt-70" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=light-dark(#FFFFFF,#1B6FA3);opacity=20;strokeColor=default;strokeWidth=4;" parent="1" vertex="1">
-          <mxGeometry x="590" y="-1090" width="250" height="1790" as="geometry" />
+          <mxGeometry x="590" y="-390" width="250" height="1090" as="geometry" />
         </mxCell>
         <mxCell id="upaL1L_dqLUM5AP28dGt-32" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=light-dark(#FFFFFF,#D335FF);opacity=20;strokeColor=default;strokeWidth=4;" parent="1" vertex="1">
           <mxGeometry x="180" y="160" width="360" height="540" as="geometry" />
@@ -425,6 +425,9 @@
         </mxCell>
         <mxCell id="aiPOxApG92XrM1YB90lP-34" value="Pinterest" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="1220" y="975" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aiPOxApG92XrM1YB90lP-35" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=light-dark(#FFFFFF,#1B6FA3);opacity=20;strokeColor=default;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="590" y="-1080" width="250" height="640" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
