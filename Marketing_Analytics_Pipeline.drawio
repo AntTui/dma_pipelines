@@ -2824,15 +2824,6 @@
         <mxCell id="NUnSURO6fAe3xiNgFozl-71" value="Funnel" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="330" y="-1520" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="eaznAcfRdLr6xNy07ZFH-2" value="Funnel" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=left;" vertex="1" parent="1">
-          <mxGeometry x="320" y="-1510" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="NUnSURO6fAe3xiNgFozl-72" value="Funnel" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="405" y="-3160" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="eaznAcfRdLr6xNy07ZFH-3" value="Funnel" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=left;" vertex="1" parent="1">
-          <mxGeometry x="310" y="120" width="100" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="NUnSURO6fAe3xiNgFozl-73" value="gSheet" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=0;verticalAlign=middle;align=left;" vertex="1" parent="1">
           <mxGeometry x="1417.25" y="-2210" width="100" height="40" as="geometry" />
         </mxCell>
