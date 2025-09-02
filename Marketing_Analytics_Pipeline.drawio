@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.2">
   <diagram name="Page-1" id="FAtJ0V6YEHCZEtDZKV_H">
-    <mxGraphModel dx="2045" dy="4863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1753" dy="4683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2378,6 +2378,14 @@
         <mxCell id="BKkKcejrCJa5qmc56Pq3-1" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=light-dark(#FFFFFF,#1B6FA3);opacity=20;strokeColor=default;strokeWidth=4;" parent="1" vertex="1">
           <mxGeometry x="910" y="2710" width="290" height="430" as="geometry" />
         </mxCell>
+        <mxCell id="NUnSURO6fAe3xiNgFozl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BKkKcejrCJa5qmc56Pq3-3" target="NUnSURO6fAe3xiNgFozl-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1480" y="2780" />
+              <mxPoint x="1480" y="2865" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="BKkKcejrCJa5qmc56Pq3-3" value="Affiliates_Meta_Impact" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="982.5" y="2765" width="165" height="30" as="geometry" />
         </mxCell>
@@ -2389,6 +2397,9 @@
               <mxPoint x="515" y="2780.23" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="NUnSURO6fAe3xiNgFozl-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BKkKcejrCJa5qmc56Pq3-5" target="NUnSURO6fAe3xiNgFozl-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BKkKcejrCJa5qmc56Pq3-5" value="comission_by_partner" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="972.5" y="2850" width="165" height="30" as="geometry" />
@@ -2421,8 +2432,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="NUnSURO6fAe3xiNgFozl-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NUnSURO6fAe3xiNgFozl-5" target="NUnSURO6fAe3xiNgFozl-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1480" y="2935" />
+              <mxPoint x="1480" y="2865" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="NUnSURO6fAe3xiNgFozl-5" value="direct_by_partner" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="972.5" y="2920" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NUnSURO6fAe3xiNgFozl-9" value="all" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="1810.5" y="2850" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
