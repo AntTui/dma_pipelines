@@ -2481,15 +2481,6 @@
         <mxCell id="NUnSURO6fAe3xiNgFozl-5" value="direct_by_partner" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="972.5" y="2920" width="165" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NUnSURO6fAe3xiNgFozl-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NUnSURO6fAe3xiNgFozl-9" target="l10C5BY7EVVfBKKgWxQi-141" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1895" y="2370" />
-              <mxPoint x="2060" y="2370" />
-              <mxPoint x="2060" y="1285" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="NUnSURO6fAe3xiNgFozl-9" value="all" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;dashPattern=12 12;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="1810.5" y="2850" width="170" height="30" as="geometry" />
         </mxCell>
@@ -2535,15 +2526,6 @@
         <mxCell id="NUnSURO6fAe3xiNgFozl-26" value="tui_fees_agency" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
           <mxGeometry x="968" y="4254" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NUnSURO6fAe3xiNgFozl-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NUnSURO6fAe3xiNgFozl-27" target="l10C5BY7EVVfBKKgWxQi-141" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2050" y="1280" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="2060" y="3585" />
-              <mxPoint x="2060" y="1285" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="NUnSURO6fAe3xiNgFozl-27" value="all" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;dashPattern=12 12;" parent="1" vertex="1">
           <mxGeometry x="1795" y="3873" width="170" height="30" as="geometry" />
         </mxCell>
@@ -2586,7 +2568,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NUnSURO6fAe3xiNgFozl-39" value="DAR" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1845.5" y="2905" width="100" height="40" as="geometry" />
+          <mxGeometry x="1842" y="2777" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XSCSrGZKmpArI-FSamzY-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XSCSrGZKmpArI-FSamzY-2" target="XSCSrGZKmpArI-FSamzY-13" edge="1">
           <mxGeometry relative="1" as="geometry">
