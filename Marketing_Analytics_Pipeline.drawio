@@ -2979,7 +2979,15 @@
         <mxCell id="y6Rc0n_lIGj7TiT3sBA5-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;DAS&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="682" y="2712" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="y6Rc0n_lIGj7TiT3sBA5-10" value="impact_accomodation_only" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="y6Rc0n_lIGj7TiT3sBA5-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="y6Rc0n_lIGj7TiT3sBA5-10" target="NUnSURO6fAe3xiNgFozl-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1545" y="2815" />
+              <mxPoint x="1545" y="2865" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6Rc0n_lIGj7TiT3sBA5-10" value="impact_accomodation_only" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
           <mxGeometry x="969" y="2800" width="175" height="30" as="geometry" />
         </mxCell>
       </root>
