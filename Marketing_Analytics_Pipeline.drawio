@@ -1,9 +1,15 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.3">
   <diagram name="Page-1" id="FAtJ0V6YEHCZEtDZKV_H">
-    <mxGraphModel dx="2683" dy="5047" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1533" dy="4427" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wSexISsL3l82ItLqVq8J-13" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=light-dark(#FFFFFF,#1B6FA3);opacity=20;strokeColor=default;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="993" y="-894" width="250" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="wSexISsL3l82ItLqVq8J-10" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=light-dark(#FFFFFF,#1B6FA3);opacity=20;strokeColor=default;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="1312" y="-930" width="250" height="158" as="geometry" />
+        </mxCell>
         <mxCell id="y6Rc0n_lIGj7TiT3sBA5-8" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=light-dark(#FFFFFF,#1B6FA3);opacity=20;strokeColor=default;strokeWidth=4;" parent="1" vertex="1">
           <mxGeometry x="587" y="2682" width="250" height="178" as="geometry" />
         </mxCell>
@@ -407,7 +413,7 @@
           <mxGeometry x="270" y="955" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4ci2VIgnh2i8zhWNwe_l-24" value="DAR" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1785" y="-573" width="100" height="40" as="geometry" />
+          <mxGeometry x="1769" y="-569" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aiPOxApG92XrM1YB90lP-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="aiPOxApG92XrM1YB90lP-23" target="aiPOxApG92XrM1YB90lP-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -2373,7 +2379,15 @@
         <mxCell id="l10C5BY7EVVfBKKgWxQi-139" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;opacity=20;strokeWidth=4;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="2000" y="1180" width="330" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="l10C5BY7EVVfBKKgWxQi-141" value="Channels" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;dashed=1;dashPattern=12 12;" parent="1" vertex="1">
+        <mxCell id="wSexISsL3l82ItLqVq8J-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="l10C5BY7EVVfBKKgWxQi-141" target="l10C5BY7EVVfBKKgWxQi-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2309" y="1285" />
+              <mxPoint x="2309" y="-1492" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l10C5BY7EVVfBKKgWxQi-141" value="Channels_overall" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;dashed=1;dashPattern=12 12;" parent="1" vertex="1">
           <mxGeometry x="2080" y="1270" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BKkKcejrCJa5qmc56Pq3-1" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=light-dark(#FFFFFF,#1B6FA3);opacity=20;strokeColor=default;strokeWidth=4;" parent="1" vertex="1">
@@ -2961,7 +2975,25 @@
           <mxGeometry x="1280" y="2800" width="242" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wSexISsL3l82ItLqVq8J-4" value="AppsFlyer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="-767" width="120" height="80" as="geometry" />
+          <mxGeometry x="385" y="-837" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wSexISsL3l82ItLqVq8J-5" value="GA4" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="386" y="-725" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wSexISsL3l82ItLqVq8J-6" value="GA4_UK" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1738" y="-881" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wSexISsL3l82ItLqVq8J-8" value="&lt;div style=&quot;color: rgb(32, 33, 36); background-color: rgb(255, 255, 255); font-family: &amp;quot;Roboto Mono&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 16px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;pax_by_channel_product&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="-844" width="206" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wSexISsL3l82ItLqVq8J-11" value="DAR" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1379" y="-901" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wSexISsL3l82ItLqVq8J-12" value="&lt;div style=&quot;color: rgb(32, 33, 36); background-color: rgb(255, 255, 255); font-family: &amp;quot;Roboto Mono&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 16px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(32, 33, 36); background-color: rgb(255, 255, 255); line-height: 16px;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;purchase_events_by_channel&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1013" y="-830" width="206" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wSexISsL3l82ItLqVq8J-14" value="DAB" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="-894" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
