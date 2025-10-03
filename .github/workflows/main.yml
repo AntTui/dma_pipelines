@@ -1,31 +1,35 @@
-name: Update Diagrams
+name: Convert Draw.io to SVG
+
 on:
   push:
     paths:
       - '**.drawio'
+      - '**.draw.io'
+  pull_request:
+    paths:
+      - '**.drawio'
+      - '**.draw.io'
+  workflow_dispatch:
+
 jobs:
-  update-diagrams:
+  convert:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Export draw.io files
+
+      - name: Export draw.io files to SVG
         uses: rlespinasse/drawio-export-action@v2
         with:
-          format: png
-          transparent: False
-      - name: Move and rename exported file
+          format: svg
+          transparent: true
+          embed-diagram: false
+
+      - name: Commit and push SVG files
         run: |
-          mv export/Marketing_Analytics_Pipeline-Page-1.png dataflow.png
-          rm -rf export/
-      - name: Commit changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          git diff --staged --quiet || git commit -m "Update diagrams"
-          git push
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add *.svg
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-generate SVG from draw.io files" && git push)
