@@ -18,18 +18,45 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Export draw.io files to SVG
-        uses: rlespinasse/drawio-export-action@v2
-        with:
-          format: svg
-          transparent: true
-          embed-diagram: false
+      - name: List draw.io files
+        run: |
+          echo "Looking for draw.io files..."
+          find . -type f \( -name "*.drawio" -o -name "*.draw.io" \)
+
+      - name: Convert draw.io to SVG using Docker
+        run: |
+          # Pull the draw.io desktop Docker image
+          docker pull rlespinasse/drawio-desktop-headless:latest
+          
+          # Find all .drawio files and convert them
+          for file in $(find . -type f -name "*.drawio"); do
+            echo "Converting: $file"
+            output="${file%.drawio}.svg"
+            docker run --rm -v "$(pwd):/data" rlespinasse/drawio-desktop-headless:latest \
+              --export --format svg --transparent \
+              --output "/data/$output" "/data/$file"
+            echo "Generated: $output"
+          done
+
+      - name: List generated SVG files
+        run: |
+          echo "SVG files in repository:"
+          find . -name "*.svg" -type f
 
       - name: Commit and push SVG files
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add *.svg
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-generate SVG from draw.io files" && git push)
+          
+          # Add all SVG files
+          find . -name "*.svg" -type f -exec git add {} \;
+          
+          # Check if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-generate SVG from draw.io files [skip ci]"
+            git push
+          fi
