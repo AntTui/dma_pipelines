@@ -1,3 +1,3 @@
 # dma_pipelines
 
-![Data Flow Diagram](dataflow.svg)
+![Data Flow Diagram](Marketing_Analytics_Pipeline.svg)
